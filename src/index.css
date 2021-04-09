@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.smaller-carussel {
+  float: left;
+  width: 33%;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex: 33.33%;
+  margin-left: 350px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainPhoto {
+  margin: 10px auto 20px;
+  display: block;
+}
+
+.buttonStyle {
+  margin: "50px 20px 20px 0";
+  border: solid;
+  width: 50px;
+  height: 30px;
+  margin-right: 10px;
+}
+.navigation-bar {
+  background-color: black;
+  height: 150px;
+  text-align: center;
+}
+.nav {
+  font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+
+  margin: 0 20px;
+  border-radius: 4px 0 0 4px;
+  position: center;
+}
+
+.nav a {
+  color: white;
+}
+
+.folowing-button a {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: white;
+  padding-left: 10px;
+}
+
+.name {
+  border: solid;
+}
+
+.folowers {
+  border: solid;
+  display: flex;
+  margin: 10px;
+}
+
+.avatar-photo {
+  border-radius: 50%;
+}
+
+.folowers-box {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.post {
+  color: black;
+  width: 50%;
+  height: 100px;
+  position: center;
+}
+
+.folowing-boxes {
+  display: flex;
+  margin: 10px;
+  background-color: black;
+}
+
+.comment-button {
+  color: red;
+  margin-left: 20px;
 }
